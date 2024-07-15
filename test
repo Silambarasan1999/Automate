@@ -1,12 +1,8 @@
-export const handler = async (event, context) => {
-
-  const remainingTimeInMillis = context.getRemainingTimeInMillis()
-  
-  const remainingTimeInSeconds = remainingTimeInMillis/1000
-
-  console.log(remainingTimeInSeconds)
-  
-
+export const handler = async (event) => {
+  // TODO implement
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify('Hello from silambu demo Lambda!'),
   };
   return response;
 };
