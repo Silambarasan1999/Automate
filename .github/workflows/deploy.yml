@@ -16,7 +16,7 @@ jobs:
         run: ls -alh
 
       - name: Zip code
-        run: zip -r code.zip .
+        run: zip -r test.zip .
 
       - name: Debug - List files after zipping
         run: ls -alh
