@@ -3,13 +3,13 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 16
   pre_build:
     commands:
       - npm install
   build:
     commands:
-      - zip -r code.zip .
+      - zip -r code.zip.
   post_build:
     commands:
       - aws lambda update-function-code --function-name demo --zip-file fileb://code.zip
