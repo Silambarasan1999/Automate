@@ -27,6 +27,7 @@
         "echo \"Verifying zip file...\"",
         "ls -al code.zip"
       ]
+      // this
     },
     "post_build": {
       "commands": [
