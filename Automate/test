@@ -3,6 +3,7 @@ export const handler = async (event) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify("Hello from silambu demo I'm my lambda Lambda from Automate asd ankit repo! from local this is comit and automate"),
+ksdbwuibfkjfhbui
   };
   return response;
 };
